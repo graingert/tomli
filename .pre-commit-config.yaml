@@ -1,6 +1,6 @@
 repos:
 - repo: https://github.com/executablebooks/mdformat
-  rev: b9b885e183ca16670b6d4a5ef8058664395dec58  # frozen: 0.7.7
+  rev: b8c05ae822d53326e967da45367d0408afc56a81  # frozen: 0.7.14
   hooks:
   - id: mdformat
     additional_dependencies:
@@ -8,7 +8,7 @@ repos:
     - mdformat-gfm
     - mdformat-black
 - repo: https://github.com/asottile/yesqa
-  rev: 644ede78511c02fc6f8e03e014cc1ddcfbf1e1f5  # frozen: v1.2.3
+  rev: 35cf7dc24fa922927caded7a21b2a8cb04bf8e10  # frozen: v1.3.0
   hooks:
   - id: yesqa
     additional_dependencies:
@@ -16,11 +16,11 @@ repos:
     - flake8-builtins
     - flake8-comprehensions
 - repo: https://github.com/PyCQA/isort
-  rev: 1d7e37c3ff2536abf4359f73c46c418cfec12ada  # frozen: 5.9.1
+  rev: c5e8fa75dda5f764d20f66a215d71c21cfa198e1  # frozen: 5.10.1
   hooks:
   - id: isort
 - repo: https://github.com/psf/black
-  rev: 93c10bf9ebccf8d7cc686b0b9579f2e5e41c5328  # frozen: 21.6b0
+  rev: fc0be6eb1e2a96091e6f64009ee5e9081bf8b6c6  # frozen: 22.1.0
   hooks:
   - id: black
 - repo: https://github.com/myint/docformatter
@@ -28,7 +28,7 @@ repos:
   hooks:
   - id: docformatter
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: 38b88246ccc552bffaaf54259d064beeee434539  # frozen: v4.0.1
+  rev: 8fe62d14e0b4d7d845a7022c5c2c3ae41bdd3f26  # frozen: v4.1.0
   hooks:
   - id: check-yaml
 - repo: https://github.com/pre-commit/pygrep-hooks
@@ -38,7 +38,7 @@ repos:
   - id: python-check-blanket-noqa
   - id: python-check-blanket-type-ignore
 - repo: https://github.com/PyCQA/flake8
-  rev: dcd740bc0ebaf2b3d43e59a0060d157c97de13f3  # frozen: 3.9.2
+  rev: cbeb4c9c4137cff1568659fcc48e8b85cddd0c8d  # frozen: 4.0.1
   hooks:
   - id: flake8
     additional_dependencies:
@@ -46,7 +46,7 @@ repos:
     - flake8-builtins
     - flake8-comprehensions
 - repo: https://github.com/pre-commit/mirrors-mypy
-  rev: 44afb68a9695d04030edc5cdc5a4fc4f17e4f9e2  # frozen: v0.910
+  rev: 730f5f57bd6fae58e10e6d8d421b945e88a62fed  # frozen: v0.941
   hooks:
   - id: mypy
     args: ["--scripts-are-modules"]
